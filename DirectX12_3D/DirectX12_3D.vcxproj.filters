@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{fbbc52c2-3feb-4f12-b6c9-b205e32d0941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector\Header">
+      <UniqueIdentifier>{6acfb7d1-e3a8-4281-99c1-d938bf6efa80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector\Source">
+      <UniqueIdentifier>{df7f933b-1410-4579-8ef2-6f9c0799e315}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector\Source\VectorMain.cpp">
+      <Filter>Vector\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector\Header\VectorMain.h">
+      <Filter>Vector\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
